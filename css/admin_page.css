@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic);
+
+@keyframes effect {
+  0% {
+    box-shadow: 0 0 0 0px #fff,
+              0 0 0 5px rgba(35, 124, 234, 0.5);
+  }
+}
+
+.push-buttonblue {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  font-size: 30px;
+  width: 7em;
+  height: 7em;
+  border: none;
+  background: #0ca2cc;
+  color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 150px auto 0;
+  box-shadow: 0 0 0 25px #fff,
+              0 0 0 30px rgba(35, 124, 234, 0);
+}
+.push-buttonblue:not(:active) {
+  animation: effect 0.5s;
+}
+.push-buttonblue:focus {
+  outline: none;
+}
+
+.push-buttonblack {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  font-size: 30px;
+  width: 7em;
+  height: 7em;
+  border: none;
+  background: #304247;
+  color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 150px auto 0;
+  box-shadow: 0 0 0 25px #fff,
+              0 0 0 30px rgba(35, 124, 234, 0);
+}
+.push-buttonblack:not(:active) {
+  animation: effect 0.5s;
+}
+.push-buttonblack:focus {
+  outline: none;
+}
+
+.push-buttongreen {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  font-size: 30px;
+  width: 7em;
+  height: 7em;
+  border: none;
+  background: #047530;
+  color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin: 150px auto 0;
+  box-shadow: 0 0 0 25px #fff,
+              0 0 0 30px rgba(35, 124, 234, 0);
+}
+.push-buttongreen:not(:active) {
+  animation: effect 0.5s;
+}
+.push-buttongreen:focus {
+  outline: none;
+}

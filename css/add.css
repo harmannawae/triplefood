@@ -1,0 +1,48 @@
+body{
+    background: 			      #8ac2ef;
+  }		
+  
+  h5 {
+    color:                  #ffffff;
+    text-align:             center;
+    font-size:              40px;
+    font-family:           'Open Sans', sans-serif;
+  }
+  a4 {
+    width: 					        86px;
+    height: 				        86px;
+    margin:                 20px auto;
+    background-color: 		  #2196f3;
+    display: 				        block;
+    text-align: 			      center;
+    line-height: 			      86px;
+    color: 					        #FFFFFF;
+    text-decoration:  		  none;
+    font-size: 				      40px;
+    border-radius: 			    50%;
+    -webkit-border-radius: 	50%;
+    -moz-border-radius:    	50%;
+    -webkit-box-shadow: 	  -5px 5px 5px -3px rgba(0,0,0,0.50);
+    -moz-box-shadow: 		    -5px 5px 5px -3px rgba(0,0,0,0.50);
+    box-shadow: 			      -5px 5px 5px -3px rgba(0,0,0,0.50);
+  }
+  a4 span {
+    display: 				        block;
+  }
+  a4:hover span{
+    -webkit-animation:      add 0.7s;
+    animation:              add 0.7s;
+  }
+  
+  @-moz-keyframes add {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes add {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes add {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
